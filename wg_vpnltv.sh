@@ -11,7 +11,7 @@ echo -e '\e[0m'
 
 sleep 2
 
-echo -e '\n\e[42mStarting Wireguard Installation\e[0m\n' && sleep 2
+echo -e '\n\e[42mНачало установки Wireguard VPN\e[0m\n' && sleep 2
 
 apt update && apt upgrade -y
 
@@ -41,7 +41,7 @@ sudo systemctl daemon-reload
 sudo systemctl enable wg-quick@wg0.service
 sudo systemctl start wg-quick@wg0.service
 
-echo -e '\n\e[42mGenerating keys for confings\e[0m\n' && sleep 2
+echo -e '\n\e[42mГенерирование ключей для VPN\e[0m\n' && sleep 2
 
 for ACC_NUM in {2..11} 
 do
