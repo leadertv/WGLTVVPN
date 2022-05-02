@@ -94,5 +94,5 @@ echo -e "\n\e[42m###################################\e[0m\n"
 done
 
 echo -e '\n\e[42m==================================================\e[0m\n'
-echo -e '\n\e[42mSAVE ALL DATA ABOVE\e[0m\n' && sleep 2
+echo -e '\n\e[42mСОХРАНИ ВСЕ ЭТО - SAVE ALL DATA ABOVE\e[0m\n' && sleep 2
 echo -e '\n\e[42m==================================================\e[0m\n'
