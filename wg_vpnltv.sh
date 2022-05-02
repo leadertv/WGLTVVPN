@@ -1,12 +1,12 @@
 #!/bin/bash
 
 echo -e '\e[40m\e[91m'
-echo -e ' _     _____  __      __          '
-echo -e '| |   |_____| \ \    / /          '
-echo -e '| |     | |    \ \  / /           '
-echo -e '| |___  | |     \ \/ /            '
-echo -e '|_____| |_|      \__/             '
-echo -e '                                  '
+echo -e ' _       _______   __      __        '
+echo -e '| |     |_______|  \ \    / /        '
+echo -e '| |        | |      \ \  / /         '
+echo -e '| |___     | |       \ \/ /          '
+echo -e '|_____|    |_|        \__/           '
+echo -e '                                     '
 echo -e '\e[0m'
 
 sleep 2
@@ -57,7 +57,7 @@ systemctl restart wg-quick@wg0.service && sleep 2
 done
 
 echo -e '\n\e[42m==================================================\e[0m\n'
-echo -e '\n\e[42mSAVE ALL DATA BELOW\e[0m\n' && sleep 2
+echo -e '\n\e[42mСОХРАНИ ВСЁ ЭТО - SAVE ALL DATA BELOW\e[0m\n' && sleep 2
 echo -e '\n\e[42m==================================================\e[0m\n'
 
 for ACC_NUM in {2..11} 
@@ -94,5 +94,5 @@ echo -e "\n\e[42m###################################\e[0m\n"
 done
 
 echo -e '\n\e[42m==================================================\e[0m\n'
-echo -e '\n\e[42mСОХРАНИ ВСЕ ЭТО - SAVE ALL DATA ABOVE\e[0m\n' && sleep 2
+echo -e '\n\e[41mСКОПИРУЙ ВСЁ ЭТО И СОХРАНИ У СЕБЯ НА ПК!\e[0m\n' && sleep 2
 echo -e '\n\e[42m==================================================\e[0m\n'
